@@ -7,3 +7,16 @@
     --semi-black: #1e1e1e;
     --white-color: #ffffff;
 }
+
+h2 {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 6.4rem;
+    line-height: 7.7rem;
+    color: var(--white-color);
+}
+
+h2 span {
+    color: var(--primary-color);
+
+}
