@@ -8,6 +8,18 @@
     --white-color: #ffffff;
 }
 
+.container {
+    width: 100%;
+    max-width: 1246px;
+    margin: 0 auto;
+    padding: 0rem 1.5rem;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0rem 1.8rem;
+}
+
 h2 {
     font-family: 'Inter';
     font-weight: 900;
