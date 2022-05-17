@@ -102,6 +102,16 @@ header .container nav .menu-social {
     gap: 1.6rem;
     margin-top: 2.3rem;
   }
+
+/* Adicionando micro interações */
+
+.s-hero .container .title .techs img {
+  transition: all 0.2s;
+}
+
+.s-hero .container .title .techs img:hover {
+  transform: translateY(-12%);
+}
   
   .s-hero .container .title .btn-primary {
     margin-top: 4rem;
