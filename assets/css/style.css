@@ -92,7 +92,7 @@ header .container nav .menu-social {
     font-size: 1.8rem;
     line-height: 2.7rem;
     text-align: center;
-    color: rgba(220, 246, 75, 0.8);
+    color: var(--white-color);
   }
   
   .s-hero .container .title .techs {
