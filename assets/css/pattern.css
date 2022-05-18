@@ -69,5 +69,37 @@ h2 span {
     color: var(--primary-color);
     font-weight: 700;
     line-height: 2.4rem;
-    
+    transition: color 0.2s;
+}
+
+.menu-item:hover {
+    color: var(--second-color);
+}
+
+.tag {
+    border-radius: 5rem;
+    padding: 0.6rem 2.7rem;
+    background-color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+}
+
+input,
+textarea {
+  background-color: var(--semi-black);
+  border: 1px solid var(--semi-black);
+  border-radius: 0.4rem;
+  width: 100%;
+  padding: 2rem;
+  resize: none;
+  color: var(--white-color);
+  outline: none;
+  transition: all 0.4s;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid var(--primary-color);
 }
