@@ -214,6 +214,10 @@ header .container nav .menu-social li a img:hover {
     max-width: 71rem;
   }
 
+  .s-about .container .about-me .cafe {
+    text-align: end;
+  }
+
   .s-about .container .about-me h2 {
     font-weight: 900;
   }
@@ -341,18 +345,32 @@ header .container nav .menu-social li a img:hover {
 /* Footer */
 
 footer {
-    background-color: var(--black-color-medium);
+  display: flex;
+  flex-direction: column;
+  background-color: #0C0C0C;
+  padding: 50px 0px;
+  align-items: center;
 }
 
-footer .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
 }
 
-footer .container .copy {
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 400;
-    line-height: 2.4rem;
-    padding: 5.2rem;
+footer ul li {
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
 }
